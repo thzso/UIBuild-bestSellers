@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fbf7f3;
+  font-family: "Roboto", sans-serif;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+/* :root{
+  --primary: #
+  --dark: 
+} */
+
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a24fb;
+  color: #fbf7f3;
+  font-size: 24px;
+  margin-bottom: 30px;
+  padding: 0 20px 0 20px;
+  height: 40px;
+  position: sticky;
+  top: 0;
+}
+
+nav h1 {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 1200px;
+  max-width: calc(100% - 30px);
+  margin: auto;
+  /* align-content: stretch; */
+}
+.number {
+  color: #1a24fb;
+  position: absolute;
+  padding: 10px;
+  font-weight: bold;
+  right: 0px;
+  top: 0px;
+}
+
+.writer {
+  font-size: small;
+  letter-spacing: 1px;
+  font-weight: light;
+}
+
+.card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.box {
+  position: relative;
+  border: 1px solid #1a24fb;
+  color: #1a24fb;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 10px;
+  flex: auto;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.desc {
+  font-size: 14px;
+}
+
+.readmore {
+  display: flex;
+  justify-content: space-between;
+  color: #1a24fb;
+  align-items: center;
+  padding: 0 5px 0 5px;
+}
+.readmore:hover {
+  background-color: #1a24fb;
+  color: #fbf7f3;
+}
